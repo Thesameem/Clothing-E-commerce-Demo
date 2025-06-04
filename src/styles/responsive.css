@@ -1,0 +1,592 @@
+html {overflow-x: hidden !important;}
+
+
+/************************************************************************************
+smaller than 1480 (the default size of the website)
+*************************************************************************************/
+
+@media screen and (max-width: 1980px) {
+	
+}
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width: 1366px) {
+	
+}
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width: 1280px) {
+	
+	
+}
+
+/************************************************************************************
+smaller than 1170
+*************************************************************************************/
+
+@media screen and (max-width: 1171px) {
+    .wrapper{
+        width: 80%;
+    }
+    .nav-bar .nav-links{
+        justify-content: space-evenly;
+    }
+    .hero-section h2{
+        font-size: 52px;
+    }
+    .hero-section .btn{
+        width: 55%;
+    }
+    /* landing page image position */
+    .hero-container .image img:nth-child(1){
+        top: 37%;
+        right: 13%;
+        width: 158px;
+        height: 150px;
+    }
+    .hero-container .image img:nth-child(2){
+        top: 65%;
+        right: 20%;
+        width: 200px;
+        height: 250px;
+    }
+    .hero-container .image img:nth-child(3){
+        top: 54%;
+        right: 10px;
+        width: 200px;
+        height: 250px;
+    }
+
+    /* products */
+    .content-row-1, .content-row-2,.about-container,.list-container ul,.picture-container,.footer-section,.footer-copyright{
+        width: 80%;
+    }
+
+    /* who we are section */
+    .about-container .story{
+        padding: 25px;
+    }
+
+
+    /* about-us page , shop page ,contact us page heading*/
+    .about-header,.shop-header,.contact-header{
+        width: 80%;
+    }
+
+    /* about us page */
+    .about-description,.number-section ul,.detail-section{
+        width: 80%;
+    }
+    .detail-section .col-1 a{
+        margin-top: 0px;
+    }
+    .detail-section .col-1 img{
+        width: 100%;
+        height: 360px;
+    }
+    .detail-section .col-2 img{
+        width: 450px;
+    }
+
+    /* shop page all products */
+    .results{
+        width: 80%;
+    }
+    /* contact us page */
+    .contact-details{
+        width: 80%;
+    }
+    .contact-image{
+        width: 80%;
+    }
+    .contact-image img{
+        width: 100%;
+    }
+}
+
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        width: 90%;
+    }
+    .nav-bar{
+        padding: 15px;
+        margin: 0px;
+    }
+    .nav-bar .nav-links a{
+        font-size: 12pt;
+    }
+    .nav-bar button{
+        font-size: 12pt;
+    }
+    /* landing page hero section */
+    .hero-section p{
+        font-size: 10pt;
+    }
+    .hero-section .btn{
+        width: 60%;
+        padding: 10px;
+    }
+    .hero-section .btn a{
+        font-size: 13pt;
+        text-align: center;
+    }
+
+    /* landing page images position */
+    .hero-container .image img:nth-child(1){
+        top: 38%;
+        right: 9%;
+    }
+    .hero-container .image img:nth-child(2),.hero-container .image img:nth-child(3){
+        width: 180px;
+        height: 225px;
+    }
+    .text-1{
+        top: 85%;
+        right: 27%;
+    }
+    .text-2{
+        top: 74%;
+        right: 12%;
+    }
+    .text-1 p{
+        font-size: 18pt;
+    }
+
+    /* about us page our story section */
+    .about-container .story .btn a{
+        font-size: 13pt;
+    }
+
+    /* who we are section */
+    .section{
+        padding: 30px;
+    }
+}
+
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+
+     
+    
+
+}
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+
+    /* hamburger menu bar */
+    .menuBar{
+        display: flex;
+    }   
+    nav{
+        width: 95%;
+    }
+    .nav-bar{
+        width: 100%;
+        margin-right: 10px;
+    }
+    .nav-menubar{
+        display: block;
+        float: right;
+    }
+    .nav-bar .nav-links,.nav-bar button{
+        display: none;
+    }
+    .nav-acc{
+        display: none;
+    }
+    /* landing page */
+    .hero-container{
+        height: 80vh;
+    }
+
+    /* landing pagespring collection */
+    .hero-section{
+        width: 35%;
+        top: 25%;
+        gap: 15px;
+        left: 12%;
+    }
+    /* left-right arrow */
+    .hero-container .arrow{
+        top: 42%;
+        gap: 10px;
+        left: 4%    ;
+    }
+
+    /* three images position */
+    .hero-container .image img:nth-child(1){
+        width: 120px;
+        height: 120px;
+        top: 66%;
+        left: 42%;
+    }
+    .hero-container .image img:nth-child(2),.hero-container .image img:nth-child(3){
+        width: 140px;
+        height: 170px;
+    }
+    .hero-container .image img:nth-child(3){
+        top: 50%;
+    }
+    .hero-container .image img:nth-child(2){
+        top: 60%;
+        right: 21%;
+    }
+    /* men and women text position */
+    .text-1{
+        gap: 5px;
+        top: 71%;
+        right: 26%;
+    }
+    .text-1 p{
+        font-size: 16pt;
+    }
+    .text-2{
+        gap: 5px;
+        top: 71%;
+    }
+
+
+    
+    /* product section */
+    .content-row-1,.content-row-2{margin: 70px auto;}
+    .content-row-1 ul ,.content-row-2 ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .results ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+    /* who we are section */
+    
+    .about-container{
+        width: 100%;
+    }
+    .about-container .story{
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .list-container ul{
+        flex-direction: column;
+    }
+    .list-container ul li{
+        width: 100%;
+    }
+
+    .picture-container{
+        width: 100%;
+    }
+    
+    /* footer section */
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-section .logo{
+        gap: 10px;
+
+    }
+    .footer-section .logo .ikon{
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .footer-section .quick-links{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer-section .quick-links a{
+        font-size: 12pt;
+        color: #666;
+        text-decoration: none;
+    }
+    .footer-section .quick-links a:hover{
+        color: black;
+    }
+    .footer-copyright{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* contact us page contact details */
+    .contact-details{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        gap: 50px;
+    }
+    .contact-address,.contact-date,.contact-info{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* about us page */
+    .heading{
+        width: 75%;
+    }
+    .heading h2{
+        font-size: 36pt;
+    }
+    .description{
+        flex-direction: column;
+    }
+    .description .paragraph{
+        width: 80%;
+    }
+    .description .image-container{
+        width: 100%;
+    }
+    .detail-section{
+        flex-direction: column;
+    }
+    .detail-section .col-2 img{
+        width: 100%;
+    }
+
+    /* learn more button */
+    .picture-container .off{
+        padding: 5px;
+    }
+
+
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width: 680px) {
+
+    
+}
+
+@media screen and (max-width: 640px) {
+
+      
+}
+
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+    .nav-bar{
+        padding: 20px 10px;
+    }
+    .landing-container{
+        height: 40vh;
+    }
+    .hero-container{
+        height: 80vh;
+    }
+    .hero-section{
+        gap: 5px;
+        top: 20%;
+        width: 40%;
+    }
+    .hero-section .row-1 span{
+        font-size: 22pt;
+    }
+    .hero-section h2{
+        font-size: 30pt;
+    }
+    .hero-section p{
+        font-size:10pt;
+    }
+    .hero-section .btn{
+        width: 90%;
+    }
+    .hero-section .btn a{
+        font-size: 12pt;
+    }
+    .hero-container .arrow{
+        top: 30%;
+        left: 2%;
+        gap: 0px;
+    }
+    /* landing page image position */
+    .hero-container .image img:nth-child(1){
+        left: 3%;
+        top: 70%;
+        width: 100px;
+        height: 100px;
+    }
+    .hero-container .image img:nth-child(2){
+        width: 120px;
+        height: 150px;
+        left: 32%;
+        top: 66%;
+    }
+    .hero-container .image img:nth-child(3){
+        width: 120px;
+        height: 150px;
+        right: 15px;
+        top: 66%;
+    }
+    /* men and womwn text position */
+    .text-1{
+        display: none;
+        bottom:10%;
+        right: 43%;
+    }
+    .text-2{
+        display: none;
+        top: 85%;
+        right: 18%;
+    }
+    .text-1 p{
+        font-size: 12pt;
+    }
+    .text-2 p{
+        font-size: 11pt;
+    }
+    /* aboutus, shop and contact us heading */
+    .about-header h1,.shop-header h1,.contact-header h1{
+        font-size: 32pt;
+    }   
+
+    /* mauris maximus section */
+    .heading{
+        width: 100%;
+    }
+    .heading h2{
+        font-size: 24pt;
+        line-height: 40px;
+    }
+    .heading span{
+        font-size: 13pt;
+    }
+    .description .paragraph{
+        width: 100%;
+    }
+    /* see all product button */
+    .content-row-1 .topic .feature-part h4, .content-row-2 .topic .feature-part h4{
+        font-size: 20pt;
+    }
+
+    .content-row-1 .button a,.content-row-2 .button a{
+        font-size: 12pt;
+    }
+
+
+    /* who we are section */
+    .about-container{
+        flex-direction: column;
+    }
+    .section h2{
+        font-size: 32pt;
+        margin-top: 30px;
+    }
+    .about-container .image-container,.about-container .story{
+        width: 100%;
+    }
+
+    /* get 20% off section */
+    .picture-container{
+        flex-direction: column;
+    }
+    .picture-container img{
+        width: 100%;
+    }
+    .picture-container .off{
+        width: 100%;
+        height: 280px;
+    }
+    .picture-container .off span{
+        font-size: 20pt;
+    }
+    .picture-container .off p{
+        font-size: 12pt;
+    }
+
+
+    /* number section */
+    .number-section ul{
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    /* footer section copyright part */
+    .footer-section .logo .ikon{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-copyright .copyright p,.footer-copyright .terms a{
+        font-size: 9pt;
+    }
+
+    /* contact us page */
+    .contact-address,.contact-info{
+        width: 90%;
+    }
+
+    /* contact us form */
+    .form-section{
+        padding: 30px;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .form-container .contact-form .input-field{
+        flex-direction: column;
+    }
+}
+
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+	
+
+}
+
+@media screen and (max-width: 360px) {
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+
+}
